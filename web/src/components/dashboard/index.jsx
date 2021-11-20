@@ -43,7 +43,7 @@ function Scoreboard() {
     return (
         <div style={{ margin: "1rem", backgroundColor: "white" }}>
 
-            <h1> Dashboard Control page </h1>
+            <h1> ashboard Control page </h1>
 
             <Box
             color= 'secondary'

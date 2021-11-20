@@ -28,7 +28,7 @@ function Dashboard() {
     }, [])
 
     useEffect(() => {
-        const socket = io("http://localhost:5001"); // to connect with locally running Socker.io server
+        const socket = io(); // to connect with locally running Socker.io server
 
         socket.on('connect', function () {
             console.log("connected to server")
